@@ -66,6 +66,13 @@ The robotic arm movement is controlled using different mate constraints configur
 
 ---
 
+## 🎥 Robot Motion Demo
+
+Watch the robot arm in motion:
+
+https://youtu.be/WXS4-cyEAZk?si=KpW7XBwalOi5TZQG
+---
+
 # 🎯 Project Purpose
 
 The purpose of this project was to practice:
