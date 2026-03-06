@@ -93,3 +93,14 @@ The purpose of this project was to practice:
 - Robot Kinematics Basics
 - Gear Mechanism Integration
 - Onshape Assembly Studio
+
+---
+
+## 🚀 Future Improvements
+
+Possible future improvements for this project:
+
+- Add servo motor mounts
+- Implement inverse kinematics
+- Export robot model for ROS / simulation
+- 3D print the robotic arm
