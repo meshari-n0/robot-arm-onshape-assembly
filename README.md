@@ -62,7 +62,8 @@ The robotic arm movement is controlled using different mate constraints configur
 
 # 📷 Assembly View
 
-![Assembly](images/robot-arm-assembly.png)
+<img width="865" height="1066" alt="لقطة شاشة 2026-03-06 192825" src="https://github.com/user-attachments/assets/f4b08773-cf58-4e96-b4ea-966cfa817f9d" />
+
 
 ---
 
