@@ -25,18 +25,20 @@ The robotic arm assembly consists of multiple links connected through rotational
 
 ### Main Components
 
+
 1. Base del brazo y circuito  
 2. Tapa circuito  
 3. Eje Central  
-4. Engranaje1  
-5. Engranaje2  
-6. Barra1  
-7. Barra2  
-8. Brazo  
-9. Antebrazo  
-10. Base de la Garra  
-11. Garra1  
-12. Garra2  
+4. Tapa Eje  
+5. Engranaje1  
+6. Engranaje2  
+7. Barra1  
+8. Barra2  
+9. Brazo  
+10. Antebrazo  
+11. Base de la Garra  
+12. Garra1  
+13. Garra2
 
 All parts were assembled in **Onshape Assembly Studio**.
 
@@ -90,10 +92,3 @@ The purpose of this project was to practice:
 - Robot Kinematics Basics
 - Gear Mechanism Integration
 - Onshape Assembly Studio
-
----
-
-# 🛠 Tools Used
-
-- **Onshape** – CAD modeling and mechanical assembly
-- **GitHub** – project documentation and version control
