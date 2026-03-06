@@ -26,11 +26,18 @@ The robotic arm assembly consists of multiple links connected through rotational
 
 Main components:
 
-- Base platform
-- Lower arm
-- Upper arm
-- Wrist joint
-- End effector (gripper)
+1. Base del brazo y circuito
+2. Tapa circuito
+3. Eje Central
+4. Engranaje1
+5. Engranaje2
+6. Barra1
+7. Barra2
+8. Brazo
+9. Antebrazo
+10. Base de la Garra
+11. Garra1
+12. Garra2
 
 All parts were assembled in **Onshape Assembly Studio**.
 
@@ -38,23 +45,27 @@ All parts were assembled in **Onshape Assembly Studio**.
 
 # ⚙️ Joint System
 
-The robot arm movement is controlled using **Revolute mates**.
+The robotic arm uses several mechanical constraints to simulate realistic robot motion.
 
-| Joint | Type | Description |
+| Joint | Mate Type | Function |
 |------|------|-------------|
-| Base | Revolute | Rotates the entire robot |
-| Shoulder | Revolute | Moves the main arm |
-| Elbow | Revolute | Extends the arm |
-| Wrist | Revolute | Adjusts end effector orientation |
+| Base | Revolute | Rotational base movement |
+| Shoulder | Revolute | Main arm lifting motion |
+| Elbow | Revolute | Arm extension |
+| Wrist | Revolute | End effector orientation |
+| Cylindrical Mechanism | Cylindrical | Rotation with linear sliding |
+| Gear Transmission | Gear Mate | Synchronizes motion between rotating components |
 
 ---
 
 # 🔧 Mates Used
 
-The following mates were used to construct the robot:
-
-- Revolute Mate
-- Fastened Mate
+| Mate Type | Purpose |
+|-----------|--------|
+| Revolute Mate | Creates rotational joints between robot links |
+| Cylindrical Mate | Allows rotation with linear sliding |
+| Fastened Mate | Rigidly fixes parts together |
+| Gear Mate | Synchronizes rotation between components |
 
 These mates simulate realistic robotic joints.
 
