@@ -62,7 +62,7 @@ The robotic arm movement is controlled using different mate constraints configur
 
 # 📷 Assembly View
 
-
+<img width="433" height="533" alt="image" src="https://github.com/user-attachments/assets/a3c3094c-6b94-45a7-a189-f7a80464b2a0" />
 
 ---
 
