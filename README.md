@@ -45,35 +45,24 @@ All parts were assembled in **Onshape Assembly Studio**.
 
 # ⚙️ Joint System
 
-The robotic arm uses several mechanical constraints to simulate realistic robot motion.
+The robotic arm movement is controlled using different mate constraints configured in the Onshape assembly.
 
-| Joint | Mate Type | Function |
-|------|------|-------------|
-| Base | Revolute | Rotational base movement |
-| Shoulder | Revolute | Main arm lifting motion |
-| Elbow | Revolute | Arm extension |
-| Wrist | Revolute | End effector orientation |
-| Cylindrical Mechanism | Cylindrical | Rotation with linear sliding |
-| Gear Transmission | Gear Mate | Synchronizes motion between rotating components |
-
----
-
-# 🔧 Mates Used
-
-| Mate Type | Purpose |
-|-----------|--------|
-| Revolute Mate | Creates rotational joints between robot links |
-| Cylindrical Mate | Allows rotation with linear sliding |
-| Fastened Mate | Rigidly fixes parts together |
-| Gear Mate | Synchronizes rotation between components |
-
-These mates simulate realistic robotic joints.
+| Joint Area | Mate Type | Description |
+|-------------|-------------|-------------|
+| Base Structure | Fastened | The base covers are rigidly fixed to the main base structure |
+| Base Rotation | Revolute | Allows the circular platform to rotate the entire robot arm |
+| Shoulder Joint | Revolute | Connects the base to the first arm segment |
+| Elbow Joint | Revolute | Enables bending motion between the arm links |
+| Intermediate Link | Cylindrical + Revolute | Allows both rotation and slight sliding motion between link components |
+| Wrist Joint | Revolute | Controls orientation of the end-effector |
+| Gripper Mechanism | Gear Mate | Synchronizes the rotation of the gripper gears |
 
 ---
+
 
 # 📷 Assembly View
 
-![Assembly](images/robot-arm-assembly.png)
+
 
 ---
 
